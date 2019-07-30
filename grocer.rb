@@ -1,4 +1,3 @@
-require 'byebug'
 def consolidate_cart(cart)
   new_cart = {}
   cart.each do |item|
@@ -54,4 +53,4 @@ def checkout(cart, coupons)
   total
 end
 
-#30 mins so far
+#Total time took 1:06 hours
